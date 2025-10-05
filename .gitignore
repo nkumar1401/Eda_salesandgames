@@ -1,0 +1,56 @@
+# ======================================
+# Python cache and compiled files
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# ======================================
+# Virtual environment folders
+# ======================================
+venv/
+env/
+.venv/
+
+# ======================================
+# Logs and temporary files
+# ======================================
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# ======================================
+# MySQL / Database files
+# ======================================
+*.sql
+*.db
+*.sqlite3
+*.dump
+
+# ======================================
+# Environment variables / credentials
+# (very important for security)
+# ======================================
+.env
+config.ini
+credentials.json
+db_config.py   # If it contains passwords or connection strings
+
+# ======================================
+# Jupyter Notebooks checkpoints
+# ======================================
+.ipynb_checkpoints/
+
+# ======================================
+# Data files (optional — comment out if you want to push them)
+# ======================================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
