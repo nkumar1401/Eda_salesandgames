@@ -49,7 +49,6 @@ db_config.py   # If it contains passwords or connection strings
 # ======================================
 # Data files (optional — comment out if you want to push them)
 # ======================================
-*.csv
 *.xlsx
 *.xls
 *.json
